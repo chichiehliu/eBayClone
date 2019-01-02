@@ -1,0 +1,11 @@
+
+.container{
+    width: 1280px;
+    margin: auto;/* 左右邊 */
+}
+.navbar{
+    list-style-type: none;
+}
+li.navitem{
+    display: inline;
+}
