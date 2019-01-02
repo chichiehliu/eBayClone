@@ -8,10 +8,12 @@ header{
 .container{
     width: 1280px;
     margin: auto;/* 左右邊 */
+    position: fixed;
 }
 .navbar{
     list-style-type: none;
     font-size: 12px;
+    
 }
 li.navitem{
     display: inline;

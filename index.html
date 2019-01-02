@@ -10,6 +10,7 @@
     <title>eBay</title>
 </head>
 <body>
+    <!-- header -->
     <header>
     <div id="container">
         <ul class="navbar">
@@ -24,5 +25,36 @@
         </ul>
     </div>
     </header>
+    <!-- search form -->
+    <div id="search-bar">
+        <div id="container">
+            <img id="brand" src="images/ebay_logo.png" alt="ebay" title="Welcome to eBay" style="height:55px">
+            <button id="shopping-button" type="button">
+                <p>Shop by category</p>
+                <img id="arrow" src="images/arrow.png" alt="arrow" style="width:20px">
+            </button>
+            <form>
+                <table>
+                    <tr><input id="search-field" name="search-content" type="text" placeholder="Search for anything"></tr>
+                    <tr>
+                        <div>
+                        <select class="options" name="cate">
+                            <option value="1">All Categories</option>
+                            <option value="2">Art</option>
+                            <option value="3">Baby</option>
+                            <option value="4">Book</option>
+                            <option value="5">Cameras &amp; Photo</option>
+                            <option value="6">Cell phones &amp; Accessories</option>
+                            <option value="7">Clothing</option>
+                            <option value="8">Computer &amp; laptops</option>
+                        </select>
+                        </div>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                </table>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
