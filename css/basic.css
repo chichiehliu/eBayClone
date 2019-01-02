@@ -5,7 +5,30 @@
 }
 .navbar{
     list-style-type: none;
+    font-size: 12px;
 }
 li.navitem{
     display: inline;
+    border-right:1px solid #777777;
+}
+li.navitem a {
+    padding: 0 9px;
+    color: #555555;
+}
+li.navitem a:link {
+    text-decoration: none
+}
+li.navitem a:hover{
+    color: #0654BA;
+}
+#singin-style a:hover{
+    text-decoration-line: underline;
+    color: #0654BA;
+}
+#singin-style a:link{
+    color: #0654BA;
+    padding: 0;
+}
+#singin-style a:link:last-child{
+    padding-right:16px;
 }
