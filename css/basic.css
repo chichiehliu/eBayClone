@@ -1,9 +1,12 @@
+/* header */
 body{
 	margin: 0;
 }
 header{
     box-shadow: 0px 3px 5px #777777;
     padding: 9px 0;
+    position: relative;
+    z-index: 1;
 }
 .container{
     width: 1280px;
@@ -48,4 +51,24 @@ li.navitem a:hover{
 }
 .noboder{
     border-right: none !important;
+}
+
+
+
+/* search form */
+#search-bar{
+    width: 100%;
+    height: 65px;
+}
+.setbg{
+    background-color: #f9f9f9;
+}
+.clearfix{
+    clear:both
+}
+#brand{
+    float: left;
+}
+#shopping-button{
+    float: left;
 }

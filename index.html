@@ -26,7 +26,7 @@
     </div>
     </header>
     <!-- search form -->
-    <div id="search-bar">
+    <div id="search-bar" class="clearfix setbg">
         <div id="container">
             <img id="brand" src="images/ebay_logo.png" alt="ebay" title="Welcome to eBay" style="height:55px">
             <button id="shopping-button" type="button">
@@ -35,9 +35,10 @@
             </button>
             <form>
                 <table>
-                    <tr><input id="search-field" name="search-content" type="text" placeholder="Search for anything"></tr>
                     <tr>
-                        <div>
+                    <td><input id="search-field" name="search-content" type="text" placeholder="Search for anything"></td>
+                    <td>
+                        <div id="category-textfield">
                         <select class="options" name="cate">
                             <option value="1">All Categories</option>
                             <option value="2">Art</option>
@@ -49,9 +50,14 @@
                             <option value="8">Computer &amp; laptops</option>
                         </select>
                         </div>
+                    </td>
+                    <td>
+                        <input class="btn-primary" value="search" type="submit">
+                    </td>
+                    <td>
+                        <a href="#" id="btn-adv" title="高級搜尋">Advanced</a>
+                    </td>
                     </tr>
-                    <tr></tr>
-                    <tr></tr>
                 </table>
             </form>
         </div>
